@@ -1,24 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans+Linear+A&display=swap');
 
 * {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
 }
 
-#header {
-  background-image: url(./assets/hero-bg.jpg);
-  min-height: 993px;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: contain;
+body{
+  overflow-x: hidden;
 }
 
-#header-background-image {
-  filter: brightness(50%);
+#header {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./assets/hero-bg.jpg');
+  min-height: 540px;
+  width: 100vw;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   font-size: 20px !important;
   line-height: 84px !important;
 
+}
+
+h2 {
+  font-size: 48px;
+  font-family: Montserrat;
+}
+
+p {
+  font-size: 18px !important;
+  font-family: Montserrat;
+
+}
+
+#btstart {
+  background-color: #9A51FF;
+    color: #fff;
+    border-radius: 50px;
+    margin: 0 0.25em;
+}
+
+#icons {
+  color:#CDCDCD;
+}
+
+#btext {
+  font-size: 20px;
+  font-family: roboto, 700;
+}
+
+#fa-check{
+  color: #9A51FF;
+}
+
+#thead {
+  background-color: #F7F7F7;
+  color: #2E3543
+}
+
+#conteudo-modulo {
+  color:#58657F;
+
+}
+
+#captura {
+  background-color: #F7F7F7;
+}
+
+#teacher {
+  background: linear-gradient( #9A51FF, #9A51FF ), url('./assets/section-bg.jpg');
+
+}
+
+#bg-h5 {
+  background-color: #9A51FF;
+  color: white;
+}
+
+#faq {
+  background-color: #F7F7F7;
+}
+
+#bg-card {
+  background-color: #F7F7F7;
+}
+
+#bt-cursos {
+  background-color:#fff;
+    color: #9A51FF;
+    border-radius: 50px;
+    margin: 0 0.25em;
+    border-color: #9A51FF;
 }
